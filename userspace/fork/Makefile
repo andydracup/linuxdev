@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=--std=c99
-EXE=signal
-SRC=signal.c
+EXE=fork
+SRC=fork.c
 all: $(EXE)
 
 $(EXE): $(SRC)
